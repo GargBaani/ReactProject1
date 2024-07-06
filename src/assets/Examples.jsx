@@ -13,6 +13,8 @@ export default function Examples(){
   function handleClick(selectedButton){
     setSelectedTopic(selectedButton);
         }
+
+        
         let  tabContent=<p>Please select a topic.</p>
        if(selectedTopic) {tabContent=
        ( <div id="tab-content">
